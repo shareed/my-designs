@@ -16,10 +16,10 @@ export const MenuContainer = styled(Box)(() => ({
 export const MenuHeader = styled(Typography)(() => ({
     padding: "4px",
     flexGrow: 1,
-    fontSize: "4em",
+    fontSize: "2em",
     fontFamily: '"Raleway Variable", "sans-serif"',
     // fontWeight: 900,
-    color: Colors.secondary,
+    color: Colors.plum,
     // "&:hover": {
     //   animation: `${textPopUpTop} 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both`,
     // },

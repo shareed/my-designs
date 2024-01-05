@@ -12,7 +12,7 @@ const MenuMobile = ({matches}) => {
     </IconButton>
 
     <MenuHeader textAlign={"center"} variant="h4">
-      User Interfaces
+      My Designs
     </MenuHeader>
 
     <IconButton>

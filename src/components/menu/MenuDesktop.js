@@ -9,7 +9,7 @@ const MenuDesktop = ({matches}) => {
      <MenuContainer>
      {/* Header--------------------------------------------------- */}
      <MenuHeader>
-         User Interfaces
+         My Designs
      </MenuHeader>
      {/* List -----------------------------------------------------*/}
      <MyList type="row">

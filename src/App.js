@@ -1,23 +1,33 @@
-import './App.css';
+import { useEffect } from 'react';
+import {Container, Button} from '@mui/material'
+import { ThemeProvider } from '@mui/system';
+import theme from './styles/theme';
+import Menu from './components/menu/Menu';
 
 function App() {
+  useEffect(() => {
+    document.title = "React User Interfaces"
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Container maxWidth='xl' sx={{
+        background: '#fff'
+      }}>
+
+        {
+          // Menu
+          <Menu />
+          //Banner
+          //Promotions
+          //Title
+          //Products
+          //footer
+          //search box
+          //App Drawer
+        }
+        </Container>
+      </ThemeProvider>
+      
   );
 }
 

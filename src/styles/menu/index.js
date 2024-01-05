@@ -4,7 +4,7 @@ import { Colors} from '../theme/index'
 import '@fontsource-variable/raleway/wght-italic.css';
 
 //Container
-export const AppBarContainer = styled(Box)(() => ({
+export const MenuContainer = styled(Box)(() => ({
     display: 'flex',
     marginTop: 4,
     justifyContent: 'center',
@@ -13,7 +13,7 @@ export const AppBarContainer = styled(Box)(() => ({
 }));
 
 //Header
-export const AppBarHeader = styled(Typography)(() => ({
+export const MenuHeader = styled(Typography)(() => ({
     padding: "4px",
     flexGrow: 1,
     fontSize: "4em",
@@ -34,7 +34,7 @@ export const MyList = styled(List)(({ type }) => ({
     alignItems: "center",
 }));
 
-export const ActionIconsContainerMobile = styled(Box)(() => ({
+export const OptionIconsContainerMobile = styled(Box)(() => ({
     display: 'flex',
     background: Colors.shaft,
     position: "fixed",
@@ -46,6 +46,6 @@ export const ActionIconsContainerMobile = styled(Box)(() => ({
     borderTop: `1px solid ${Colors.border}`
   }));
   
-  export const ActionIconsContainerDesktop = styled(Box)(() => ({
+  export const OptionIconsContainerDesktop = styled(Box)(() => ({
     flexGrow: 0,
   }));

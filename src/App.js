@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/system';
 import theme from './styles/theme';
 import Menu from './components/menu/Menu';
 import Banner from './components/banner/Banner';
+import Promotions from './components/promotions/Promotions';
 
 function App() {
   useEffect(() => {
@@ -16,8 +17,8 @@ function App() {
       }}>
         <Menu />
         <Banner />
+        <Promotions />
         {
-          //Promotions
           //Title
           //Products
           //footer

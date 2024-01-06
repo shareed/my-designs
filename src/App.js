@@ -5,6 +5,7 @@ import theme from './styles/theme';
 import Menu from './components/menu/Menu';
 import Banner from './components/banner/Banner';
 import Promotions from './components/promotions/Promotions';
+import Designs from './components/designs/Designs';
 
 function App() {
   useEffect(() => {
@@ -18,9 +19,9 @@ function App() {
         <Menu />
         <Banner />
         <Promotions />
+        <Designs />
         {
           //Title
-          //Products
           //footer
           //search box
           //App Drawer

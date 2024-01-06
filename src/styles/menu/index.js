@@ -13,6 +13,7 @@ export const MenuContainer = styled(Box)(() => ({
 }));
 
 //Header
+//Inherits from Typography
 export const MenuHeader = styled(Typography)(() => ({
     padding: "4px",
     flexGrow: 1,

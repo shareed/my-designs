@@ -4,12 +4,15 @@ Custom Theme
 Media Queries (using sx prop, breakpoints and hooks)
 Custom MUI Component
 Drawer
-Appbar
-Animation
+
 Grid
 Box
 
 ---
+
+- Menu Header
+- Promotions Slider Animation
+- Banner
 
 - Material UI
     - `npm install @mui/material @emotion/react @emotion/styled`

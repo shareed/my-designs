@@ -4,14 +4,14 @@ export const designs = [
         name: "Super Backpack",
         price: 129.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "/images/designs/elly.png"
+        image: "/images/designs/pocoyo.png"
     },
     {
         id: 2,
         name: "New Hip",
         price: 199.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "/images/designs/sally.png"
+        image: "/images/designs/pocoyo.png"
     },
     {
         id: 3,
@@ -25,14 +25,14 @@ export const designs = [
         name: "Casual",
         price: 129.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "/images/designs/elly.png"
+        image: "/images/designs/pocoyo.png"
     },
     {
         id: 5,
         name: "Best Tote",
         price: 399.99,
         description: "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna",
-        image: "/images/designs/sally.png"
+        image: "/images/designs/pocoyo.png"
     },
     {
         id: 6,

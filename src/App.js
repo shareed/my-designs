@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import {Container, Button} from '@mui/material'
+import {Container, Button, Box, Typography} from '@mui/material'
 import { ThemeProvider } from '@mui/system';
 import theme from './styles/theme';
 import Menu from './components/menu/Menu';
@@ -19,6 +19,9 @@ function App() {
         <Menu />
         <Banner />
         <Promotions />
+        <Box display={"flex"} justifyContent={"center"} sx={{p: 4}}>
+          <Typography variant='h4'>My Designs</Typography>
+        </Box>
         <Designs />
         {
           //Title

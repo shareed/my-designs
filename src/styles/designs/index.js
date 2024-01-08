@@ -28,14 +28,16 @@ export const DesignImage = styled("img")(({ src, theme }) => ({
   
 }));
 
-export const DesignActionButton = styled(IconButton)(() => ({
+export const DesignOptionButton = styled(IconButton)(() => ({
     background: Colors.white,
     margin: 4,
   }));
   
 //Inherits from DesignActionButton
-export const DesignFavButton = styled(DesignActionButton)(({ isfav, theme }) => ({
-    color: isfav ? Colors.primary : Colors.light,  
+export const DesignFavButton = styled(DesignOptionButton, {
+  shouldForwardProp: (prop) => prop !== 'isFav'
+})(({ isFav, theme }) => ({
+    color: isFav ? Colors.primary : Colors.light,  
     [theme.breakpoints.up("md")]: {
       position: "absolute",
       right: 0,
@@ -68,7 +70,9 @@ export const DesignAddToCart = styled(Button, {
     alignItems: "center",
   }));
   
-  export const DesignActionsWrapper = styled(Box)(({ show, theme }) => ({ 
+  export const DesignOptionsWrapper = styled(Box, {
+    shouldForwardProp: (prop) => prop !== "show",
+  })(({ show, theme }) => ({ 
     [theme.breakpoints.up("md")]: {
       display: show ? 'visible' : 'none',
       position: "absolute",

@@ -32,13 +32,7 @@ const Promotions = () => {
 
     return (
         <PromotionsContainer ref={containerRef}>
-            <Slide container={containerRef.current} direction={show ? "left" : "right"} in={show} timeout={{enter: 600, exit: 400}}>
-                <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
-                    <MessageText>
-                        {messages[messageIndex]}
-                    </MessageText>
-                </Box>
-            </Slide>
+     
 
 
         </PromotionsContainer>

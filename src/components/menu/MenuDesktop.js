@@ -7,23 +7,7 @@ const MenuDesktop = ({matches}) => {
   return (
      /*Container--------------------------------------------------------*/
      <MenuContainer>
-     {/* Header--------------------------------------------------- */}
-     <MenuHeader>
-         My Designs
-     </MenuHeader>
-     {/* List -----------------------------------------------------*/}
-     <MyList type="row">
-         <ListItemText primary="Home" />
-         <ListItemText primary="Categories" />
-         <ListItemText primary="Products" />
-         <ListItemText primary="Contact Us" />
-         <ListItemButton>
-             <ListItemIcon>
-                 <SearchIcon />
-             </ListItemIcon>
-         </ListItemButton>
-     </MyList>
-     <Options matches={matches} />
+    
  </MenuContainer>
   )
 }

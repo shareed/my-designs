@@ -2,6 +2,7 @@ import { Container, Grid, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles"
 import { designs } from "../../data";
 import SingleDesign from "./SingleDesignMobile";
+import SingleDesignDesktop from "./SingleDesignDesktop";
 
 const Designs = () => {
     const theme = useTheme();
@@ -16,7 +17,9 @@ const Designs = () => {
             display="flex"
             flexDirection={"column"}
             alignItems={"center"}>
-            <SingleDesign design={design} matches={matches}/>
+            
+            {matches ? <SingleDesign design={design} matches={matches}/>: <SingleDesignDesktop design={design} matches={matches}/>}
+            
         </Grid>
     ))
   return (

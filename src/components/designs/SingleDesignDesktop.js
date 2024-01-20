@@ -9,7 +9,7 @@ const SingleDesignDesktop = ({ design, matches }) => {
   return (
     <>
     {/* product container */}
-    <Design>
+      <Design>
       {/* Image */}
       <DesignImage src={design.image} />
       {/* Meta */}

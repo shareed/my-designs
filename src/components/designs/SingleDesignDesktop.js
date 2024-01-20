@@ -10,28 +10,9 @@ const SingleDesignDesktop = ({ design, matches }) => {
     <>
     {/* product container */}
       <Design>
-      {/* Image */}
-      <DesignImage src={design.image} />
-      {/* Meta */}
-      <DesignMeta design={design} matches={matches} />
-      {/* Options */}
-      <DesignOptionsWrapper>
-        <Stack direction="column">
-          <DesignFavButton isFav={0}>
-          <FavoriteIcon />
-          </DesignFavButton>
-          <DesignOptionButton>
-            <ShareIcon color={'primary'}/>
-          </DesignOptionButton>
-          <DesignOptionButton>
-            <FitScreenIcon color={'primary'}/>
-          </DesignOptionButton>
-        </Stack>
-      </DesignOptionsWrapper>
+    
     </Design>
-      <DesignAddToCart variant="container">
-          Add To Cart
-      </DesignAddToCart>
+
     {/* Footer */}
     </>
   )
